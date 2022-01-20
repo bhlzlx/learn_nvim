@@ -69,6 +69,36 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["LanguageClient-neovim"] = {
+    loaded = true,
+    path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LanguageClient-neovim",
+    url = "https://github.com/autozimu/LanguageClient-neovim"
+  },
+  ["deoplete.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\deoplete.nvim",
+    url = "https://github.com/Shougo/deoplete.nvim"
+  },
+  ["neosnippet-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosnippet-snippets",
+    url = "https://github.com/Shougo/neosnippet-snippets"
+  },
+  ["neosnippet.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosnippet.vim",
+    url = "https://github.com/Shougo/neosnippet.vim"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\kusugawa\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",

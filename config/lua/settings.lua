@@ -19,8 +19,8 @@ vim.bo.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftround = true
 -- >> << 时移动长度
-vim.o.shiftwidth = 2
-vim.bo.shiftwidth = 2
+vim.o.shiftwidth = 4
+vim.bo.shiftwidth = 4
 -- 新行对齐当前行，空格替代tab
 vim.o.expandtab = true
 vim.bo.expandtab = true
@@ -78,3 +78,5 @@ vim.o.shortmess = vim.o.shortmess .. 'c'
 vim.o.pumheight = 10
 -- always show tabline
 vim.o.showtabline = 2
+
+vim.g.python3_host_prog = 'python'
