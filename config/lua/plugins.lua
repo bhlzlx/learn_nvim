@@ -11,5 +11,7 @@ return require('packer').startup(
         use 'Shougo/neosnippet-snippets' 
         use 'Shougo/deoplete.nvim'
         use 'autozimu/LanguageClient-neovim'
+        use { 'nvim-treesitter/nvim-treesitter', run = 'TSUpdate' }
+        use { 'Yggdroot/LeaderF', run = 'LeaderfInstallCExtension' }
     end
 )

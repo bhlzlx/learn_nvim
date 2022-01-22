@@ -80,3 +80,5 @@ vim.o.pumheight = 10
 vim.o.showtabline = 2
 
 vim.g.python3_host_prog = 'python'
+
+vim.cmd [[colorscheme evening]]

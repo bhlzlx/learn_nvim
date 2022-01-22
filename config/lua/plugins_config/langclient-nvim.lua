@@ -6,10 +6,7 @@ vim.g.LanguageClient_serverCommands = {
     }
 }
 
-vim.g.LanguageClient_rootMarkers = {
-    cpp = { 'build', 'compile_commands.json' }
-}
-
-
-vim.g.LanguageClient_echoProjectRoot = 1
--- print(vim.g.LanguageClient_serverCommands.cpp[1])
+vim.completefunc = 'LanguageClient#complete'
+-- vim.g.LanguageClient_rootMarkers = {
+--     cpp = { 'build', 'compile_commands.json' }
+-- }

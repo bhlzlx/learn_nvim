@@ -3,6 +3,8 @@ require'nvim-tree'.setup {
     auto_close = true,
     -- 不显示 git 状态图标
     git = {
-        enable = false
+        enable = true
     }
 }
+
+vim.cmd [[NvimTreeOpen]]
